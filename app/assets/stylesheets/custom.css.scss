@@ -21,5 +21,30 @@
 }
 
 .custom-jumbotron {
-  background-image: asset-url('capp.jpg')
+  height: 425px;
+  background-image: asset-url('capy-pic.jpg'); /* Use asset-url() to specify the image file path */
+  background-size: cover; /* This will make the image cover the entire jumbotron */
+  background-position: center 15%; /* Center the image both vertically and horizontally */
+  background-repeat: no-repeat;
 }
+
+.custom-jumbotron h1 {
+  font-size: 5rem; /* Adjust the font size to your preference */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  flex-shrink: none;
+  background: lightcyan
+}
+
