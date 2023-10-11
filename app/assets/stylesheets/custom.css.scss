@@ -1,8 +1,25 @@
 
 .navbar {
-
-  background-color: #FDF6EA !important;
-  
+  background-color: darkcyan !important;
   }
 
-  
+.nav-link {
+  color: whitesmoke !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.custom-jumbotron {
+  background-image: asset-url('capp.jpg')
+}
