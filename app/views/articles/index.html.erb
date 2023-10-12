@@ -1,4 +1,4 @@
-<h1 class="text-center mt-4">All Articles</h1>
+
 <div class="container">
   <% @articles.each do |article| %>
     <div class="row justify-content-md-center">
@@ -9,7 +9,7 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">
-              <%= link_to article.title, article_path(article), class: "text-success" %>
+              <%= link_to article.title, article_path(article), class: "text-darkcyan" %>
             </h5>
             <p class="card-text">
               <%= truncate(article.description, length: 100) %>
