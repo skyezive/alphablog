@@ -14,6 +14,7 @@ gem "sqlite3", "~> 1.4"
 
 #adding
 gem 'bootstrap-sass', '~> 3.4.1'
+gem 'will_paginate', '~> 4.0'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
