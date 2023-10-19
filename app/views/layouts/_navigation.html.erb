@@ -19,8 +19,11 @@
             <li><%=link_to "View all articles", articles_path %></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <li class="nav-item">  
+        <%= link_to 'Log in', login_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">  
+        <%= link_to 'Logout', logout_path, class:"nav-link text-light", data: {turbo_method: :delete}%> 
         </li>
       </ul>
       <form class="d-flex">
