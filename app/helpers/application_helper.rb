@@ -7,14 +7,4 @@ module ApplicationHelper
     image_tag(gravatar_url, alt: user.username, class: "rounded shadow-sm mx-auto d-block")
   end
 
-  def current_user
-    if session[:user_id]
-      @current_user || User.find(session[:user_id])
-    end
-  end
-
-  def logged_in?
-    !!current_user 
-  end
-
 end
